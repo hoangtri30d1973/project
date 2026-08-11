@@ -1,6 +1,7 @@
 import streamlit as st
 from database import init_db
 from auth import check_password
+import hashlib
 
 init_db()
 
