@@ -1,7 +1,11 @@
 import streamlit as st
 import pandas as pd
 from database import get_conn
-   
+
+from auth import check_project_password
+if not check_project_password():
+   st.stop()
+
 st.title("📁 Project Management")
 
 tab1, tab2 = st.tabs(
