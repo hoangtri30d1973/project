@@ -1,8 +1,5 @@
 import streamlit as st
 from database import init_db
-from auth import check_password
-
-init_db()
 
 st.set_page_config(
     page_title="Project Manager",
