@@ -1,5 +1,6 @@
 import streamlit as st
 from database import init_db
+from auth import check_password
 
 init_db()
 
@@ -8,6 +9,9 @@ st.set_page_config(
     page_icon="✳️",
     layout="wide"
 )
+
+if not check_password():
+    st.stop()
 
 st.title("📁 Project Manager")
 
@@ -20,3 +24,7 @@ Chọn menu bên trái:
 - Projects
 - Reports
 """)
+
+if st.sidebar.button("🚪 Logout"):
+    st.session_state.authenticated = False
+    st.rerun()
