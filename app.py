@@ -7,9 +7,6 @@ st.set_page_config(
     layout="wide"
 )
 
-if not check_password():
-    st.stop()
-
 st.title("📁 Project Manager")
 
 st.markdown("""
