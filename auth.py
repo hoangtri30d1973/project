@@ -1,7 +1,7 @@
 import streamlit as st
 import hashlib
 
-APP_PASSWORD = "123456"
+APP_PASSWORD = "1236"
 
 
 def check_password():
