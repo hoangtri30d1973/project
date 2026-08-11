@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 from database import get_conn
-
-init_db()
    
 st.title("📁 Project Management")
 
