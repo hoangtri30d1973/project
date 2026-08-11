@@ -6,6 +6,14 @@ from auth import check_project_password
 if not check_project_password():
    st.stop()
 
+if st.button("🔓 Lock Page"):
+
+    st.session_state[
+        "project_authenticated"
+    ] = False
+
+    st.rerun()
+
 st.title("📁 Project Management")
 
 tab1, tab2 = st.tabs(
