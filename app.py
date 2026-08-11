@@ -18,7 +18,3 @@ Chọn menu bên trái:
 - Projects
 - Reports
 """)
-
-if st.sidebar.button("🚪 Logout"):
-    st.session_state.authenticated = False
-    st.rerun()
