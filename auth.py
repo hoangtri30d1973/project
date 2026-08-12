@@ -8,7 +8,7 @@ def check_project_password():
     if st.session_state.get("project_authenticated"):
         return True
 
-    st.title("❌")
+    st.title("⚠️ Protected page!")
 
     password = st.text_input(
         "Enter password",
