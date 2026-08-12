@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📁 Project Manager")
+st.title("⏲️ Project Manager")
 
 st.markdown("""
 *Chào mừng đến với phần mềm quản lý dự án cá nhân của* `├───┤oang💫Tri`
