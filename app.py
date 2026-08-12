@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("📁 Project Manager")
 
 st.markdown("""
-**Chào mừng đến với phần mềm quản lý dự án cá nhân của** `───H───M───T───!` `├┤oang💫Tri`
+*Chào mừng đến với phần mềm quản lý dự án cá nhân của* `├┤oang💫Tri`
 
 ---
 
