@@ -5,7 +5,7 @@ init_db()
 
 st.set_page_config(
     page_title="Project Manager",
-    page_icon="✳️",
+    page_icon="✔️",
     layout="wide"
 )
 
