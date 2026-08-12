@@ -1,14 +1,4 @@
 import streamlit as st
-
-st.markdown(
-    """
-    <style>
-    #MainMenu {visibility: hidden;}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 from database import init_db
 
 init_db()
@@ -22,9 +12,9 @@ st.set_page_config(
 st.title("📁 Project Manager")
 
 st.markdown("""
-### Chào mừng đến với phần mềm tự quản lý dự án của bạn!
+### Chào mừng đến với phần mềm quản lý dự án cá nhân của ___H___M___T___!
 
-Chọn menu bên trái:
+Chọn các chức năng chính ở menu bên trái:
 
 - Dashboard
 - Projects
