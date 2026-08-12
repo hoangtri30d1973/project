@@ -41,7 +41,7 @@ st.markdown("""
 - Trong cuộc sống, những chuyện ta không mong muốn vẫn luôn xảy ra. 
     - Chẳng hạn, nhỏ thì như chuyện: cơm sống, canh mặn; hoặc 
     - Lớn hơn như chuyện: trẻ con hàng xóm đánh nhau hay anh chồng nhậu say xỉn… 
-        **Bản thân chúng chưa phải là vấn đề; chính thái độ và cách xử lý không thích hợp của chúng ta mới thực sự biến chúng thành vấn đề.**
+    > **Bản thân chúng chưa phải là vấn đề; chính thái độ và cách xử lý không thích hợp của chúng ta mới thực sự biến chúng thành vấn đề.**
 - Sáng tạo bất chiếm hữu, Thành công bất tự cứ. 
 
 ## Sự rèn luyện
