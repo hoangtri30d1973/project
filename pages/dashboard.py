@@ -42,7 +42,7 @@ done = conn.execute(
 
 conn.close()
 
-st.title("📊 Dashboard")
+st.title("ℹ️ Dashboard")
 
 c1, c2, c3, c4, c5 = st.columns(5)
 
